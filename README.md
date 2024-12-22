@@ -135,12 +135,6 @@ sodas/
   - OpenRouter - Model routing and fallback
   - Gaianet - Specialized DeFi operations
 
-### Creative & Content Tools
-  - MidJourney - Visual asset creation
-  - Kling AI - Video content generation
-  - ElevenLabs - AI voiceover generation
-  - ChatGPT - Documentation enhancement
-
 ### Prerequisites
 - Node.js (v23+)
 - pnpm (v9+)
@@ -253,10 +247,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p>Built with ❤️ by the SoDAS team</p>
   <p>
-    <a href="https://twitter.com/SoDASai">
-      <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter" alt="Twitter" />
-    </a>
-    <a href="https://discord.gg/sodas">
+    <a href="https://discord.gg/EFYm7WXr">
       <img src="https://img.shields.io/badge/Discord-Join-7289DA?style=for-the-badge&logo=discord" alt="Discord" />
     </a>
     <a href="https://x.com/SoDASMemeWizard">
