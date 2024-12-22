@@ -83,6 +83,15 @@ Our platform leverages a Multi-Agent System architecture where each agent specia
 9. 👛 Wallet Agent: Asset management
 10. 📋 Analyst Agent: Market analysis
 
+## 🎥 Demo & Walkthrough
+
+<div align="center">
+  <a href="https://youtu.be/PvIOKqZPjkA">
+    <img src="assets/video-thumbnail.png" alt="SoDAS Demo Video" width="600"/>
+  </a>
+  <p>👆 Click to watch our demo video and platform walkthrough</p>
+</div>
+
 <div align="center">
   <img src="assets/architecture.jpg" alt="SoDAS Architecture" width="800"/>
 </div>
@@ -103,7 +112,7 @@ Our platform leverages a Multi-Agent System architecture where each agent specia
 
 ```bash
 sodas/
-├── assets/                      # Project assets and branding
+├── assets/                     # Project assets and branding
 │   ├── logo/                   # Logo files and variations
 │   └── images/                 # Screenshots and graphics
 ├── docs/                       # Documentation files
@@ -112,7 +121,7 @@ sodas/
 │   ├── characters/             # Agent character definitions
 │   ├── client/                 # Web client application
 │   ├── packages/               # Plugin packages
-│   │   ├── plugin-sodas/      # Main Solana DeFi plugin
+│   │   ├── plugin-sodas/       # Main Solana DeFi plugin
 │   │   └── plugin-crossmint/   # Crossmint integration
 │   └── scripts/                # Build and utility scripts
 └── sol/                        # Solana integration tests
@@ -155,34 +164,30 @@ OPENROUTER_API_KEY=       # OpenRouter API key
 # Blockchain Configuration
 SOLANA_PRIVATE_KEY=       # Solana wallet private key
 SOLANA_PUBLIC_KEY=        # Solana wallet public address
-SOLANA_RPC_URL=          # Solana RPC endpoint (default: mainnet-beta)
-CROSSMINT_API_KEY=       # Crossmint API for wallet creation
-CROSSMINT_EMAIL=         # Crossmint account email
-CROSSMINT_ENV=           # Crossmint environment (production/staging)
+SOLANA_RPC_URL=           # Solana RPC endpoint (default: mainnet-beta)
+CROSSMINT_API_KEY=        # Crossmint API for wallet creation
+CROSSMINT_EMAIL=          # Crossmint account email
+CROSSMINT_ENV=            # Crossmint environment (production/staging)
 
 # API Keys
-HELIUS_API_KEY=          # Helius API for Solana data
-BIRDEYE_API_KEY=         # Birdeye API for market data
-ALCHEMY_API_KEY=         # Alchemy API access
+HELIUS_API_KEY=           # Helius API for Solana data
+BIRDEYE_API_KEY=          # Birdeye API for market data
+ALCHEMY_API_KEY=          # Alchemy API access
+
+# Solana Wallet Configuration
+SOLANA_PRIVATE_KEY=       # Solana wallet private key
 
 # Social Integration
-TWITTER_USERNAME=        # Twitter account username
-TWITTER_PASSWORD=        # Twitter account password
-TWITTER_EMAIL=           # Twitter account email
-TWITTER_DRY_RUN=        # Enable/disable test mode
-FARCASTER_FID=          # Farcaster ID for social integration
+TWITTER_USERNAME=         # Twitter account username
+TWITTER_PASSWORD=         # Twitter account password
+TWITTER_EMAIL=            # Twitter account email
+FARCASTER_FID=            # Farcaster ID for social integration
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN_SALES=      # Telegram sales bot token
+TELEGRAM_BOT_TOKEN_SALES=       # Telegram sales bot token
 TELEGRAM_BOT_TOKEN_COORDINATOR= # Telegram coordinator bot token
 DISCORD_APPLICATION_ID=         # Discord application ID
-DISCORD_API_TOKEN=             # Discord bot token
-
-# Feature Flags
-IMAGE_GEN=              # Enable/disable image generation
-POST_IMMEDIATELY=       # Enable immediate posting
-DISABLE_PORTFOLIO_FETCHING= # Disable portfolio tracking
-```
+DISCORD_API_TOKEN=              # Discord bot token
 
 ### Running the Agents
 
