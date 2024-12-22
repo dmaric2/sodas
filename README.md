@@ -83,6 +83,10 @@ Our platform leverages a Multi-Agent System architecture where each agent specia
 9. 👛 Wallet Agent: Asset management
 10. 📋 Analyst Agent: Market analysis
 
+<div align="center">
+  <img src="assets/architecture.jpg" alt="SoDAS Architecture" width="800"/>
+</div>
+
 ## 📖 Documentation
 
 | Document | Description |
