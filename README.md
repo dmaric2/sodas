@@ -103,20 +103,20 @@ Our platform leverages a Multi-Agent System architecture where each agent specia
 
 ```bash
 sodas/
-├── assets/                     # Project assets and branding
-│   ├── logo/                  # Logo files and variations
-│   └── images/                # Screenshots and graphics
-├── docs/                      # Documentation files
-├── eliza/                     # AI Agent System
-│   ├── agent/                # Core agent system
-│   ├── characters/           # Agent character definitions
-│   ├── client/              # Web client application
-│   ├── packages/            # Plugin packages
-│   │   ├── plugin-sodas/   # Main Solana DeFi plugin
-│   │   └── plugin-crossmint/# Crossmint integration
-│   └── scripts/            # Build and utility scripts
-└── sol/                    # Solana integration tests
-    └── src/               # Test source files
+├── assets/                      # Project assets and branding
+│   ├── logo/                   # Logo files and variations
+│   └── images/                 # Screenshots and graphics
+├── docs/                       # Documentation files
+├── eliza/                      # AI Agent System
+│   ├── agent/                  # Core agent system
+│   ├── characters/             # Agent character definitions
+│   ├── client/                 # Web client application
+│   ├── packages/               # Plugin packages
+│   │   ├── plugin-sodas/      # Main Solana DeFi plugin
+│   │   └── plugin-crossmint/   # Crossmint integration
+│   └── scripts/                # Build and utility scripts
+└── sol/                        # Solana integration tests
+    └── src/                    # Test source files
 ```
 
 ## 🚀 Getting Started
