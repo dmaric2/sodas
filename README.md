@@ -117,9 +117,33 @@ sodas/
 
 ## 🚀 Getting Started
 
+
+## 🛠️ Technical Stack & Tools
+
+### Core Frameworks & SDKs
+- **AI Development**:
+  - Eliza Framework - Core agent system architecture
+  - GOAT SDK - Agent orchestration and management
+  - Solana Agent Kit - Blockchain integration framework
+  - Cursor AI IDE - Primary development environment
+
+### AI & Language Models
+- **Large Language Models**:
+  - Anthropic Claude - Primary reasoning engine
+  - OpenAI GPT-4 - Task processing
+  - Grok - Real-time market analysis
+  - OpenRouter - Model routing and fallback
+  - Gaianet - Specialized DeFi operations
+
+### Creative & Content Tools
+  - MidJourney - Visual asset creation
+  - Kling AI - Video content generation
+  - ElevenLabs - AI voiceover generation
+  - ChatGPT - Documentation enhancement
+
 ### Prerequisites
-- Node.js (v18+)
-- pnpm (v8+)
+- Node.js (v23+)
+- pnpm (v9+)
 - Solana CLI tools
 
 ### Required Environment Variables
